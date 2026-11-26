@@ -2,8 +2,6 @@
 
 I'm a software engineer in London with an MSc in Artificial Intelligence from Royal Holloway, University of London. I build mobile and web apps, and lately a lot of my work runs on LLM APIs.
 
-I'm looking for software engineer and AI engineer roles in the UK, and I have the right to work here.
-
 ## What I'm doing now
 
 I'm the IT Business Analyst at Eden Crafts, a small London business. I also work out which day-to-day tasks AI tools can automate. So far that's meant:
@@ -20,12 +18,23 @@ I spent a year as an Associate Software Engineer at GITREX Technologies in Islam
 
 Client work there included **Funky Food AU** (React Native and Redux front end, Express back end) and **PopBookings US**, which I helped move from Xamarin to React Native.
 
+## What I'm building: papercue
+
+A cosy papercraft pool game for iOS and Android, all about trick shots. Pot the balls, earn the stars, take your time.
+
+- **My own physics engine**, written from scratch in TypeScript: friction, ball-to-ball collisions, cushions, pockets and obstacles, stepped at a fixed rate. It's deterministic, so the same shot always plays out exactly the same way.
+- **An aim preview** that shows where the cue ball will make contact and which way both balls will travel.
+- **A solver** that searches a grid of shot angles and powers to prove every level can be won (and that 3 stars are possible), then stores a hint for each one.
+- 25 levels across 2 chapters so far, with sound effects and haptic feedback.
+- React Native, Expo, TypeScript and Skia. Jest tests, and CI that runs tests, type checks and lint on every pull request.
+
+The repo's private while it's in progress.
+
 ## Projects
 
 | Project | What it does | Stack |
 |---|---|---|
 | [House Price Prediction](https://github.com/rajafaisal31059/house-pricing) (MSc final project) | Trained several AI models to predict real estate house prices and compared how they performed across datasets | Python, scikit-learn, PyTorch, pandas, NumPy |
-| **papercue** (in progress, private repo) | A game I'm working on | TypeScript |
 | [React News App](https://github.com/rajafaisal31059/React-News-app) | News reader with category filters and a dark mode toggle | React, News API, Axios, React Router |
 | [Finance App](https://github.com/rajafaisal31059/financeapp) | Expense tracking, budget analysis and spending by category | React Native, AsyncStorage |
 
